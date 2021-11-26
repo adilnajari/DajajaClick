@@ -1,0 +1,27 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(to right, #422d55, #0e6331);
+    overflow-y: hidden;
+    font-family: Nunito, sans-serif;
+}
+.welcome{
+    position: relative;
+    text-align: center;
+    top: 50px;
+}
+.welcome h1{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.welcome p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.welcome .paly{
+}

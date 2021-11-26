@@ -2,7 +2,7 @@ var img = document.getElementById("popcat1");
 var count = document.getElementById("score");
 var malaysiaScore = document.getElementById('my_score');
 var score = 0;
-var MyScore = 10000;
+var MyScore = 1000;
 var audio = new Audio('dajas.mp3');
 var hk_score = 1000, tw_score = 430, th_score = 200, jp_score = 150, fi_score = 250, se_score = 100, pl_score = 500, dm_score = 280, id_score=590, hu_score=319, sr_score = 300; 
 

@@ -1,22 +1,24 @@
 body {
     margin: 0%;
     padding: 0%;
-    background: linear-gradient(to right, #342146, #076b30);
+    background: linear-gradient(to right, #422d55, #0e6331);
     overflow-y: hidden;
     font-family: Nunito, sans-serif;
 }
-.container{
+.container1{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
-h1{
-    font-size: 6.5em;
+.container1 h1{
+    font-size: 4.5em;
     margin: 1% 0% -5% 0%;
     font-family: Nunito, sans-serif;
     -webkit-text-stroke: 2px black;
     color: white;
+    margin-bottom: 10px;
 }
 #country_score{
     margin-left: 50px;
@@ -26,8 +28,9 @@ h1{
     font-family: Nunito, sans-serif;
     -webkit-text-stroke: 2px black;
     color: white;
-    margin-bottom: -6%;
+    margin-bottom: -5%;
 }
+
 button{
     margin-top: 4%;
     font-size: 25px;
@@ -37,15 +40,12 @@ button{
     outline: none;
 }
 .tabs {
-    margin-top: 4%;
     border-radius: 8px;
-    overflow: hidden;
     box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+    width: 300px;
   }
 .tab{
-    width: 100%;
     color: white;
-    overflow: hidden;
 }
 label{
     word-spacing: 1cm;
@@ -114,12 +114,13 @@ input {
         width: 450px;
         margin-top: -13%;
     }
-    h1{
+    h2{
         font-size: 4.5em;
         margin-bottom: -20%;
     }
     img{
-        height: 500px;
+        width: auto;
+        height: 300px;
     }
     html{
         overflow-y: hidden;
